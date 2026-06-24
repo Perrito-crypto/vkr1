@@ -1,7 +1,6 @@
 streamlit
-tensorflow==2.15.0
-# В TensorFlow 2.15 Keras 2 еще является основным. 
-# Начиная с 2.16 Keras 3 становится стандартом, что ломает вашу модель.
+tensorflow>=2.16.1
+tf_keras
 numpy<2.0.0
 Pillow
 pandas
