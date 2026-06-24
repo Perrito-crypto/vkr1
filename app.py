@@ -280,7 +280,7 @@ def web_advice(query, n=5):
 
 @st.cache_resource
 def load_model():
-    path = "trained_model.keras"
+    path = "trained_model1.keras"
     if not os.path.exists(path):
         st.error("Файл модели 'trained_model.keras' не найден. Положите его в папку с приложением.")
         st.stop()
